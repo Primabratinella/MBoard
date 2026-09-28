@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBC Global Missions Display</title>
+    <link rel="stylesheet"> 
+    <a href="style.css">
+    <!-- If linking files locally in VS Code, uncomment the line below: -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+    <!-- SCREEN HEADER -->
+    <header>
+        <h1>DBC & GHANA: CONNECTED IN REAL-TIME</h1>
+    </header>
+
+    <!-- TIMEZONE DASHBOARD -->
+    <div class="timezone-dashboard">
+        <div class="clock-card">
+            <div class="clock-label">🕒 USA / EST Time Base</div>
+            <div class="time-display" id="local-clock">00:00:00 AM</div>
+        </div>
+        <div class="clock-card featured">
+            <div class="clock-label">✨ Featured Zone: Ghana / GMT</div>
+            <div class="time-display" id="ghana-clock">00:00:00 PM</div>
+        </div>
+    </div>
+
+    <!-- 4-COLUMN MAIN BODY GRID -->
+    <div class="main-body">
+        
+        <!-- Column 1: Aaron's School (The Foundation) -->
+        <div class="column">
+            <h2>Foundation & Care</h2>
+            <ul>
+                <li><strong>Minds & Lives:</strong> Faithfully provides a quality education to 400 neighborhood children from varied backgrounds.</li>
+                <li><strong>Survival Clinic:</strong> Operates an active Infants and Children Survival Clinic to keep little ones healthy and safe during vulnerable early years.</li>
+                <li><strong>Oversight:</strong> This vital, life-saving work operates directly under the trusted guidance of the Fellowship of Good News Bible Churches in Ghana.</li>
+            </ul>
+        </div>
+
+        <!-- Column 2: Center Player Box (Video Widget) -->
+        <div class="column">
+            <h2>Frontline Footage</h2>
+            <div class="video-container">
+                <iframe width="100%" height="100%" src="https://youtube.com" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Column 3: DBC Impact (Our Call) -->
+        <div class="column column-dbc">
+            <h2>Our Mission Strand</h2>
+            <ul>
+                <li><strong>THE CALL:</strong> Standing with the Kabores and the Fellowship of GNBC as they bring the Gospel to the Gushego District.</li>
+                <li><strong>THE IMPACT:</strong> Funding cross-cultural discipleship, Christ-centered education for 400 kids, and a life-saving infant clinic.</li>
+                <li><strong>THE CONNECTION:</strong> Linking DBC's prayers and resources directly with the faithful history of Aaron's School and GNBC Tahimayili.</li>
+            </ul>
+        </div>
+
+        <!-- Column 4: Picture Gallery Box -->
+        <div class="column column-gallery">
+            <h2>Photo Window</h2>
+            <div class="gallery-container" id="gallery">
+                <img src="https://picsum.photos" alt="Ghana Ministry Slide 1" class="active">
+                <img src="https://picsum.photos" alt="Ghana Ministry Slide 2">
+                <img src="https://picsum.photos" alt="Ghana Ministry Slide 3">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- LOWER-THIRD EXCLUSIVE FACT BLOCK -->
+    <div class="lower-third-ticker">
+        <div class="ticker-slide active">
+            <h3>🇬🇭 GHANA CULTURE SPOTLIGHT</h3>
+            <p>The name Ghana translates historically to "Warrior King." It was the first nation in sub-Saharan Africa to gain independence, earning its title as the "Gateway to Africa." Pray for our partners as they boldly lead communities to the King of Kings!</p>
+        </div>
+        <div class="ticker-slide">
+            <h3>🌱 LOCAL LIFE & ECONOMY</h3>
+            <p>Ghana is the world's second-largest producer of cocoa beans! Agriculture is the heartbeat of daily life. In the north, Aaron Kabore relies on subsistence farming during the rainy season to sustain his household while holding doors open for the Gospel.</p>
+        </div>
+        <div class="ticker-slide">
+            <h3>🌍 GEOGRAPHY & DISTRICT LAYOUT</h3>
+            <p>While southern Ghana features thick rainforests and beaches, the Gushego District in the north transitions into sprawling savanna grasslands. It experiences intense rainy seasons followed by harsh, dry seasons.</p>
+        </div>
+        <div class="ticker-slide">
+            <h3>🌊 GEOGRAPHY SPOTLIGHT</h3>
+            <p>Ghana is home to Lake Volta, the largest artificial man-made lake in the entire world by surface area! It is so massive it can be seen from space. We pray that the knowledge of the Gospel covers the Gushego District just as water covers the lake.</p>
+        </div>
+    </div>
+
+    <!-- MISSION TICKET ACTION STRIP -->
+    <div class="ticket-strip">
+        <div class="ticket-info">
+            <h4>🎟️ CLAIM YOUR DIGITAL MISSION TICKET</h4>
+            <p>Scan this lobby code to download this week's mobile prayer pass directly onto your smartphone lock screen.</p>
+        </div>
+        <div class="qr-placeholder">QR CODE</div>
+    </div>
+
+    <!-- FOOTER SCRIPTURE ACCENT -->
+    <footer>
+        "A cord of three strands is not quickly broken." — Ecclesiastes 4:12
+    </footer>
+
+    <!-- If linking files locally in VS Code, uncomment the line below: -->
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
